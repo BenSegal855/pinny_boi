@@ -1,1 +1,2 @@
-pinny_bot
+# pinny_bot
+A bot that pins things

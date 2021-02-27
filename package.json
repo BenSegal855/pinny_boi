@@ -1,0 +1,23 @@
+{
+  "name": "pinny_bot",
+  "version": "0.1.0",
+  "description": "A bot that pins things",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"not yet fam\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenSegal855/pinny_bot.git"
+  },
+  "author": "Ben Segal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenSegal855/pinny_bot/issues"
+  },
+  "homepage": "https://github.com/BenSegal855/pinny_bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
