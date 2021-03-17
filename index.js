@@ -11,7 +11,7 @@ bot.once('ready', async () => {
 			await channel.messages.fetch();
 		}
 	}
-	console.log('Pinny Boi is ready!');
+	console.log(`Pinny Boi is ready in ${bot.guilds.cache.size} guilds!`);
 });
 
 bot.on('messageReactionAdd', reaction => {
