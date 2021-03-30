@@ -42,5 +42,7 @@ bot.on('messageReactionRemoveEmoji', reaction => {
 bot.on('message', msg => {
 	if (msg.author.id === bot.user.id && msg.system) msg.delete();
 
-	if (msg.mentions.has(bot.user)) msg.reply(`Get ${bot.user.username} in your own server\n${invite}`)
+	if (msg.mentions.has(bot.user, { ignoreEveryone: true, ignoreRoles: true })) {
+		msg.reply(`Get ${bot.user.username} in your own server\n${invite}`);
+	}
 })
